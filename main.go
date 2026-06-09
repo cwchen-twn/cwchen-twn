@@ -9,43 +9,47 @@ import (
 )
 
 const (
-	blogRssFeed    = "https://cwc1222.github.io/rss.xml"
+	blogRssFeed    = "https://cwchen-twn.github.io/rss.xml"
 	maxPostsToShow = 5
 
 	readmeTmplPath = "README.md.tmpl"
 	readmePath     = "README.md"
 )
 
-func parseFeeds(rssFeed string) *gofeed.Feed {
+func parseFeeds(rssFeed string) (*gofeed.Feed, error) {
 	fp := gofeed.NewParser()
 	feed, err := fp.ParseURL(rssFeed)
 	if err != nil {
-		log.Fatalf("error getting feed: %v", err)
-		panic(err)
+		return nil, err
 	}
-	return feed
+	return feed, nil
 }
 
 func main() {
-	feed := parseFeeds(blogRssFeed)
+	feed, err := parseFeeds(blogRssFeed)
+	if err != nil {
+		log.Printf("warning: could not fetch feed, skipping blog posts section: %v", err)
+	}
 
 	tmpl, err := template.ParseFiles(readmeTmplPath)
 	if err != nil {
 		log.Fatalf("create file: %v", err)
-		panic(err)
 	}
 
 	readme, err := os.Create(readmePath)
 	if err != nil {
 		log.Fatalf("create file: %v", err)
-		panic(err)
 	}
 	defer readme.Close()
 
-	n := min(maxPostsToShow, len(feed.Items))
-	err = tmpl.Execute(readme, feed.Items[0:n])
+	var items []*gofeed.Item
+	if feed != nil {
+		n := min(maxPostsToShow, len(feed.Items))
+		items = feed.Items[0:n]
+	}
+
+	err = tmpl.Execute(readme, items)
 	if err != nil {
-		log.Fatalf("create file: %v", err)
-		panic(err)
+		log.Fatalf("execute template: %v", err)
 	}
 }
