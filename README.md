@@ -1,16 +1,16 @@
 
-# Hi there, this is cwc1222
+# Hi there, this is cwchen-twn
 
-![profile-views](https://komarev.com/ghpvc/?username=cwc1222)
-![github-streak](https://custom-icon-badges.demolab.com/badge/dynamic/json?logo=fire&logoColor=fff&color=orange&label=github%20streak&query=%24.currentStreak.length&suffix=%20days&url=https%3A%2F%2Fstreak-stats.demolab.com%2F%3Fuser%3Dcwc1222%26type%3Djson)
-[![build-status](https://github.com/cwc1222/cwc1222/workflows/Update%20Readme/badge.svg)](https://github.com/cwc1222/cwc1222/actions)
+![profile-views](https://komarev.com/ghpvc/?username=cwchen-twn)
+![github-streak](https://custom-icon-badges.demolab.com/badge/dynamic/json?logo=fire&logoColor=fff&color=orange&label=github%20streak&query=%24.currentStreak.length&suffix=%20days&url=https%3A%2F%2Fstreak-stats.demolab.com%2F%3Fuser%3Dcwchen-twn%26type%3Djson)
+[![build-status](https://github.com/cwchen-twn/cwchen-twn/workflows/Update%20Readme/badge.svg)](https://github.com/cwchen-twn/cwchen-twn/actions)
 
-[![blog-badge](https://custom-icon-badges.demolab.com/badge/cwc1222's_blog-013243.svg?logo=Blogger&logoColor=white
-)](https://cwc1222.github.io)
+[![blog-badge](https://custom-icon-badges.demolab.com/badge/cwchen-twn's_blog-013243.svg?logo=Blogger&logoColor=white
+)](https://cwchen-twn.github.io)
 [![linked-in](https://custom-icon-badges.demolab.com/badge/chun--wei_chen-blue.svg?logo=Linkedin&logoColor=white
 )](https://www.linkedin.com/in/walker088-391429109)
 [![email](https://custom-icon-badges.demolab.com/badge/Reach_me_via_email-red.svg?logo=mail
-)](mailto:cwwalker088@gmail.com)
+)](mailto:cwchen.twn@gmail.com)
 
 ## About Me
 
@@ -32,6 +32,6 @@ He and his team developped a web-based system by Java 21 and NextJS, covering mo
 <img title="Golang" alt="Golang" width="50" height="50" src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original.svg'>
 <img title="Python" alt="Python" width="50" height="50" src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg'>
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=cwc1222&layout=compact&theme=vision-friendly-dark)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=cwchen-twn&layout=compact&theme=vision-friendly-dark)](https://github.com/anuraghazra/github-readme-stats)
 
 </div>
