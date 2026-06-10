@@ -22,4 +22,4 @@ He and his team developped a web-based system by Java 21 and NextJS, covering mo
 **Chun-Wei Chen**, Jian-Wei Su, Tung-Wei Kuo, and Kung Chen
 [Best paper award] The 2nd International Workshop on Blockchain Technologies and Systems (BCTS 2018)
 
-### :hammer_and_wrench: Languages and Tools
+
